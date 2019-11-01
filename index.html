@@ -1,0 +1,21 @@
+<div id="app">
+  
+  <h1>{{header}}</h1>
+  
+    <div v-for="drink in favoriteDrinks">
+      
+      <div class="redBorder" v-bind:style="{backgroundColor: drink.color}" v-if="drink.calories>100">
+        <h3>
+        {{drink.name}} : {{drink.calories}} calories
+        </h3>
+      </div>
+      
+      <div class="blackBorder" v-bind:style="{backgroundColor: drink.color}" v-else>
+        <p>
+        {{drink.name}} : {{drink.calories}} calories
+        </p>
+      </div>
+      
+  </div>
+  
+</div>

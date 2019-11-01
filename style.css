@@ -1,0 +1,28 @@
+body {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.redBorder {
+  border: 10px solid red;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:30px;
+  height: 60px;
+  width: 300px;
+  color: red;
+}
+
+.blackBorder {
+  border: 1px solid black;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:30px;
+  height: 60px;
+  width: 300px;
+}
